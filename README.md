@@ -19,16 +19,19 @@ The Credit Card Fraud Detection project aims to develop a machine learning model
 3. **Data Splitting**:
    - Split the dataset into training and testing sets.
    - The training set was used to train the model, while the testing set was used to evaluate its performance.
+     
+4. **Data Sampling**:
+   - Balanced the chosen target variables using data sampling techniques to address class imbalance issues.
 
-4. **Model Selection**:
+5. **Model Selection**:
    - Chose logistic regression as the appropriate machine learning algorithm for the problem.
    - Logistic regression is a common algorithm for binary classification tasks like fraud detection.
 
-5. **Model Training**:
+6. **Model Training**:
    - Trained the logistic regression model using the training dataset.
    - Fed the algorithm with features and corresponding labels and let it learn the patterns in the data.
 
-6. **Model Evaluation**:
+7. **Model Evaluation**:
    - Evaluated the model's performance on the testing dataset using appropriate metrics such as accuracy, precision, recall, and F1 score.
    - Achieved a model accuracy score of 92%, indicating the model's effectiveness in detecting fraudulent transactions.
 
@@ -36,6 +39,7 @@ The Credit Card Fraud Detection project aims to develop a machine learning model
 
 - `eda`: Contains notebooks or scripts for exploratory data analysis.
 - `feature_engineering`: Includes notebooks or scripts for feature engineering tasks.
+- `data_sampling`: Contains scripts or notebooks for data sampling techniques used to address class imbalance.
 - `model_training`: Contains notebooks or scripts for training the logistic regression model.
 - `model_evaluation`: Includes notebooks or scripts for evaluating the model's performance.
 
